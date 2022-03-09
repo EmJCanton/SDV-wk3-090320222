@@ -1,0 +1,20 @@
+{
+  "name": "sdv-wk3-090320222",
+  "version": "1.0.0",
+  "description": "A testing ground for newbies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmJCanton/SDV-wk3-090320222.git"
+  },
+  "keywords": [javascript playground nmit],
+  "author": "Emma-Jane Canton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmJCanton/SDV-wk3-090320222/issues"
+  },
+  "homepage": "https://github.com/EmJCanton/SDV-wk3-090320222#readme"
+}
