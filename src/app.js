@@ -1,4 +1,5 @@
-console.log("Hello World")
+console.log("Hello")
+console.log("Emma-Jane Canton")
 // TODO:
 
 // NOTE: 
