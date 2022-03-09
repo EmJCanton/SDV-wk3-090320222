@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/EmJCanton/SDV-wk3-090320222.git"
   },
-  "keywords": [javascript playground nmit],
+  "keywords": [],
   "author": "Emma-Jane Canton",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EmJCanton/SDV-wk3-090320222/issues"
   },
-  "homepage": "https://github.com/EmJCanton/SDV-wk3-090320222#readme"
+  "homepage": "https://github.com/EmJCanton/SDV-wk3-090320222#readme",
+  "dependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15"
+  }
 }
