@@ -32,6 +32,7 @@ var myAge = 40;
 // Print variable "myAge"
 console.log(myAge);
 
+// grab text input and return a combined message
 document.querySelector("button").addEventListener("click", function (){
     document.querySelector("div").textContent = "Hello, " + document.querySelector("input").value;
 })
