@@ -41,10 +41,17 @@ for (var i=0; i<10; i++){
 
 // JavaScript if statements
 
-var number = 9
+var number = 10
 if (number === 10) {
 console.log("answer = " + number)
 } 
 else {
 console.log("error")
 }
+
+// const and let (constant never changes, let does)
+let num = 3
+console.log(num)
+
+num = "Emma"
+console.log(num)
