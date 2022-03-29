@@ -29,3 +29,14 @@
 
     returns an error with selected message
         console.error("Hello World")
+
+window.alert{"Hello World")
+VM1289:1 Uncaught SyntaxError: Unexpected token '{'
+--> First parenthesis is a curled bracket
+
+var myName = "Lawrence";
+var myCourse = "JavaScript";
+console.log(myName)
+alert("Welcome");
+var myAge = 40;
+console.log(myAge);
