@@ -13,5 +13,16 @@
         <script type="text/javascript">
             alert( "My first Javascript");
         </script>
+
+        <div>What is your name?
+            <input type="text">
+            <button>Send</button>
+        </div>
+        <script>
+            document.querySelector("button").addEventListener("click".function () {
+                document.querySelector("div").textContent = "Hello." + document.querySelector("input").value;
+            })
+        </script>
+
     </body>
 </html>
