@@ -36,9 +36,14 @@ var b = 10;
 var c = false;
 console.log(a);
 
-
 // change var for const and you will get an error message, as const values cannot be changed and are read only
-var name = "SDV503"
+// var name = "SDV503"
+// console.log(name)
+// name = "Emma"
+// console.log(name)
+
+// Lets use "let" instead
+let name = "SDV503"
 console.log(name)
 name = "Emma"
 console.log(name)
