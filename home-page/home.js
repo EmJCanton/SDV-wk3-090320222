@@ -19,7 +19,7 @@ var myName = "Jessica"
 // Print the variable on the console
 console.log(myName)
 
-// Using Boolean
+// Using Boolean (???)
 var message;
 console.log(message);
 message = null;
@@ -35,3 +35,10 @@ var a = "Hello"
 var b = 10;
 var c = false;
 console.log(a);
+
+
+// change var for const and you will get an error message, as const values cannot be changed and are read only
+var name = "SDV503"
+console.log(name)
+name = "Emma"
+console.log(name)
