@@ -47,3 +47,19 @@ let name = "SDV503"
 console.log(name)
 name = "Emma"
 console.log(name)
+
+// 1 - Local scope - objects within {} can only be accessed from inside
+// 2 - Global scope - objects sitting outside of {}
+
+// const msg = "Hello World"
+// console.log(msg)
+
+if(false) {
+    const msg = "Hello World"
+    console.log(msg)
+}
+
+if(true) {
+    const msg = "Hello World"
+    console.log(msg)
+}
