@@ -80,10 +80,24 @@ You can write a bunch of stuff here and nothing will be rendered out. Secret for
 // console.log(call())
 // // console.log(msg)
 
-var msg = "Hello Banana World"
+// var msg = "Hello Banana World"
 
-function readMsg() {
-    console.log(msg)
+// function readMsg() {
+//     console.log(msg)
+// }
+
+// console.log(readMsg())
+
+// Keyword Lexical Scope
+
+function outerFunc() {
+    var msg = "Goodbye World"
+
+    function innerFunc() {
+        console.log(msg)
+    }
+
+    console.log(innerFunc())
 }
 
-console.log(readMsg())
+console.log(outerFunc())
