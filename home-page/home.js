@@ -18,3 +18,20 @@ console.log(welcome)
 var myName = "Jessica"
 // Print the variable on the console
 console.log(myName)
+
+// Using Boolean
+var message;
+console.log(message);
+message=null;
+console.log(message);
+var myLight = false;
+console.log(myLight);
+myLight = true;
+if (myLight) {
+    console.log(myLight);
+}
+var score1, score2, score3, score4;
+var a="Hello"
+var b=10;
+var c= false;
+console.log(a);
