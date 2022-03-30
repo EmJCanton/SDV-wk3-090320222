@@ -22,7 +22,7 @@ console.log(myName)
 // Using Boolean
 var message;
 console.log(message);
-message=null;
+message = null;
 console.log(message);
 var myLight = false;
 console.log(myLight);
@@ -31,7 +31,7 @@ if (myLight) {
     console.log(myLight);
 }
 var score1, score2, score3, score4;
-var a="Hello"
-var b=10;
-var c= false;
+var a = "Hello"
+var b = 10;
+var c = false;
 console.log(a);
