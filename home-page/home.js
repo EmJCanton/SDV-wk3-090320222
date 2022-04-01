@@ -102,38 +102,61 @@ You can write a bunch of stuff here and nothing will be rendered out. Secret for
 
 // console.log(outerFunc())
 
-// DataTypes (catch up, read SDV book)
-/*
-1- Numbers
-2- Boolean
-3- Strings
-4- Objects
-*/
+// // DataTypes (catch up, read SDV book)
+// /*
+// 1- Numbers
+// 2- Boolean
+// 3- Strings
+// 4- Objects
+// */
 
-let a = 1 // a number DataType
-let b = "hello" // b is a string
-let c = true // c is a boolean DataType
-let d; // d is undefined DataType
+// let a = 1 // a number DataType
+// let b = "hello" // b is a string
+// let c = true // c is a boolean DataType
+// let d; // d is undefined DataType
 
-// Line 115 is declaring a variable, varible type let, variable name c
+// // Line 115 is declaring a variable, varible type let, variable name c
 
-let sum = "1"+"1" // Using quotations makes thing a string/text
-console.log(sum)
+// let sum = "1"+"1" // Using quotations makes thing a string/text
+// console.log(sum)
 
-let sumcorr = 1+1 // numbers are recognised correctly
-console.log(sumcorr)
+// let sumcorr = 1+1 // numbers are recognised correctly
+// console.log(sumcorr)
 
-let numint = 3.334566 // C# will not work with decimal places, but JS is fine
-console.log(numint)
+// let numint = 3.334566 // C# will not work with decimal places, but JS is fine
+// console.log(numint)
 
-let divide = 3 / "Emma" // returned NaN, if you put a number in quotes, JS will act correctly
-console.log(divide)
+// let divide = 3 / "Emma" // returned NaN, if you put a number in quotes, JS will act correctly
+// console.log(divide)
 
-let text = 3 / 0 // returns infinity
-console.log(text)
+// let text = 3 / 0 // returns infinity
+// console.log(text)
+
+// const value1 = '5';
+// const value2 = 9;
+// let sumb = value1 + value2; // when added seperately, strings and numbers work together
+
+// console.log(sum);
+
+// let str = "Emma Canton"
+// let str1 = "NMIT"
+// let fullstr = str + " " + str1 // Add multiple strings together to create sentences
+// console.log(fullstr)
+
+// // String Templates
+// let newstring = `Hello to my new string! My name is ${str} and I am a student at ${str1}`
+// console.log(newstring)
 
 const value1 = '5';
 const value2 = 9;
-let sumb = value1 + value2;
+let sum = Number(value1) + value2; // using the tag number tells JS to treat it as a normal number
+console.log(sum)
 
-console.log(sum);
+let alphabet = 'a'
+console.log(Number(alphabet)); // returns NaN
+
+let alphabet2 = '4'
+console.log(Number(alphabet2)); // works
+
+let output = `The Sum of value1 and value2 is ${sum}` // returns line 152 with surrounding context
+console.log(output)
