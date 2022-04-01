@@ -149,7 +149,7 @@ You can write a bunch of stuff here and nothing will be rendered out. Secret for
 
 // const value1 = '5';
 // const value2 = 9;
-// let sum = Number(value1) + value2; // using the tag number tells JS to treat it as a normal number
+// let sum = Number(value1) + value2; // using the tag "Number" tells JS to treat it as a normal number
 // console.log(sum)
 
 // let alphabet = 'a'
@@ -198,3 +198,10 @@ let female = true
 if (female) {
     console.log(`Vexxy is ${female}`) // YAY :)
 }
+
+// What is a funtion?
+/*
+A function in JavaScript is similar to a proceedure - a set of statements that performs a task
+or calculates a value, but for a procedure to qualify as a function, it should take some input
+and return an output where there is some obvious relationship between the input and the output.
+*/
