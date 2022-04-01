@@ -147,16 +147,54 @@ You can write a bunch of stuff here and nothing will be rendered out. Secret for
 // let newstring = `Hello to my new string! My name is ${str} and I am a student at ${str1}`
 // console.log(newstring)
 
-const value1 = '5';
-const value2 = 9;
-let sum = Number(value1) + value2; // using the tag number tells JS to treat it as a normal number
-console.log(sum)
+// const value1 = '5';
+// const value2 = 9;
+// let sum = Number(value1) + value2; // using the tag number tells JS to treat it as a normal number
+// console.log(sum)
 
-let alphabet = 'a'
-console.log(Number(alphabet)); // returns NaN
+// let alphabet = 'a'
+// console.log(Number(alphabet)); // returns NaN
 
-let alphabet2 = '4'
-console.log(Number(alphabet2)); // works
+// let alphabet2 = '4'
+// console.log(Number(alphabet2)); // works
 
-let output = `The Sum of value1 and value2 is ${sum}` // returns line 152 with surrounding context
-console.log(output)
+// let output = `The Sum of value1 and value2 is ${sum}` // returns line 152 with surrounding context
+// console.log(output)
+
+// // Boolean type uses only true and false
+// let bol = true
+// console.log(bol)
+
+// console.log(5 > 3)
+// // >= or <= or +==
+// console.log(4 >= 7)
+// let text = ["hello", "Emma", 21, 2013] //This is an array (square brackets), items are numbered, started at 0
+// console.log(text[2]) //  prints off the THIRD string in the array
+
+// for(i=0; i<text.length; i++) { //checks the array in "text", i=index, .length tells 1 to only go as far as the array does, i++ tells to include all items in the array IN ORDER
+//     console.log(text[i])
+// }
+// // objects
+//  var cat = {
+//      fur: 'black',
+//      whiskers: 'many',
+//      paws: 5
+    
+//  }
+//  console.log(cat)
+
+let color = "black"
+let name = "Vexxy"
+let paws = 4
+let fur = "fluffy"
+let sentence = `Hello! I have a cat named ${name}, she is ${color} with ${fur} fur. Her ${paws} paws are very cute! Her favourite toys/games are:`
+console.log(sentence)
+let toys = ["string", "balls", "hide and seek"]
+for (i=0; i<=toys.length; i++) {
+    console.log(toys[i])
+}
+let male = false
+let female = true
+if (female) {
+    console.log(`Vexxy is ${female}`) // YAY :) all good :P I'm good :)
+}
