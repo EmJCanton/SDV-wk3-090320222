@@ -88,16 +88,52 @@ You can write a bunch of stuff here and nothing will be rendered out. Secret for
 
 // console.log(readMsg())
 
-// Keyword Lexical Scope
+// // Keyword Lexical Scope
 
-function outerFunc() {
-    var msg = "Goodbye World"
+// function outerFunc() {
+//     var msg = "Goodbye World"
 
-    function innerFunc() {
-        console.log(msg)
-    }
+//     function innerFunc() {
+//         console.log(msg)
+//     }
 
-    console.log(innerFunc())
-}
+//     console.log(innerFunc())
+// }
 
-console.log(outerFunc())
+// console.log(outerFunc())
+
+// DataTypes (catch up, read SDV book)
+/*
+1- Numbers
+2- Boolean
+3- Strings
+4- Objects
+*/
+
+let a = 1 // a number DataType
+let b = "hello" // b is a string
+let c = true // c is a boolean DataType
+let d; // d is undefined DataType
+
+// Line 115 is declaring a variable, varible type let, variable name c
+
+let sum = "1"+"1" // Using quotations makes thing a string/text
+console.log(sum)
+
+let sumcorr = 1+1 // numbers are recognised correctly
+console.log(sumcorr)
+
+let numint = 3.334566 // C# will not work with decimal places, but JS is fine
+console.log(numint)
+
+let divide = 3 / "Emma" // returned NaN, if you put a number in quotes, JS will act correctly
+console.log(divide)
+
+let text = 3 / 0 // returns infinity
+console.log(text)
+
+const value1 = '5';
+const value2 = 9;
+let sumb = value1 + value2;
+
+console.log(sum);
