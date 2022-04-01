@@ -196,5 +196,5 @@ for (i=0; i<=toys.length; i++) {
 let male = false
 let female = true
 if (female) {
-    console.log(`Vexxy is ${female}`) // YAY :) all good :P I'm good :)
+    console.log(`Vexxy is ${female}`) // YAY :)
 }
