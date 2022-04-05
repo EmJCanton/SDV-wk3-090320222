@@ -183,25 +183,63 @@ You can write a bunch of stuff here and nothing will be rendered out. Secret for
 //  }
 //  console.log(cat)
 
-let color = "black"
-let name = "Vexxy"
-let paws = 4
-let fur = "fluffy"
-let sentence = `Hello! I have a cat named ${name}, she is ${color} with ${fur} fur. Her ${paws} paws are very cute! Her favourite toys/games are:`
-console.log(sentence)
-let toys = ["string", "balls", "hide and seek"]
-for (i=0; i<=toys.length; i++) {
-    console.log(toys[i])
-}
-let male = false
-let female = true
-if (female) {
-    console.log(`Vexxy is ${female}`) // YAY :)
-}
+// let color = "black"
+// let name = "Vexxy"
+// let paws = 4
+// let fur = "fluffy"
+// let sentence = `Hello! I have a cat named ${name}, she is ${color} with ${fur} fur. Her ${paws} paws are very cute! Her favourite toys/games are:`
+// console.log(sentence)
+// let toys = ["string", "balls", "hide and seek"]
+// for (i=0; i<=toys.length; i++) {
+//     console.log(toys[i])
+// }
+// let male = false
+// let female = true
+// if (female) {
+//     console.log(`Vexxy is ${female}`) // YAY :)
+// }
 
-// What is a funtion?
-/*
-A function in JavaScript is similar to a proceedure - a set of statements that performs a task
-or calculates a value, but for a procedure to qualify as a function, it should take some input
-and return an output where there is some obvious relationship between the input and the output.
+// // What is a funtion?
+// /*
+// A function in JavaScript is similar to a proceedure - a set of statements that performs a task
+// or calculates a value, but for a procedure to qualify as a function, it should take some input
+// and return an output where there is some obvious relationship between the input and the output.
+
+// A programme or subprogramme designed to run or execute an equation you you have designed. It lets you reuse a piece of code with different inputs
+// */
+
+// function div(num1, num2) { // define the context
+//     return num1/num2 // define its function/returns the value
+// }
+// console.log(div(6, 3)) // invoke the function
+
+// function add (num1, num2, num3, num4) {
+//     return num1+num2+num3+num4
+// }
+// console.log(add(1, 5, 7, 12))
+
+// function add(num1, num2, num3, num4){ // we want to add four numbers together
+//     let result = num1+num2+num3+num4 // result will add them all together for a final number
+//     return `${num1}+${num2}+${num3}+${num4} = ${result}` // give final result showing all numbers in a row with math signs, then show equal sign and total value
+// }
+
+// console.log(add(1, 2, 3, 4)) // run equation and print on console
+
+function fourNumbers(num1, num2, num3, num4) {
+    let result = num1 + num2 + num3 + num4
+    return `the sum of four numbers is ${result}`
+}
+console.log(fourNumbers(2, 4, 6, 8))
+
+// Difference between Function and Parameters
+/* Parameters are defined WITHIN the function. We can define/declare up to 250 parameters within a function
 */
+// What is an argument?
+/* the ARGUMENTS are the VALUES the function is receiving from each parameter
+*/
+// What do we mean by INVOKING?
+/* We are calling the funtion to be executed. 
+*/
+
+function test() {} // an empty funtion will return undefined
+console.log(test)
