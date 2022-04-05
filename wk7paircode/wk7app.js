@@ -38,13 +38,28 @@
 // }
 // console.log(lastElement(["ali", 12, "blue", "green"]))
 
-// Create a function that takes an array and returns it as a string
-// arrayToString(["Ali", 12, "blue"]) -> Ali12blue
+// // Create a function that takes an array and returns it as a string
+// // arrayToString(["Ali", 12, "blue"]) -> Ali12blue
 
-function giveMeAString(arr) {
-    return arr.toString();                                                                   // .toString() can also be changed to .join('')
+// function giveMeAString(arr) {
+//     return arr.toString();                                                                   // .toString() can also be changed to .join('')
+// }
+// console.log(giveMeAString([1,2,3,4,5,"Ali"]))
+
+// const result = giveMeAString([1,2,3,4,5,"Ali"])
+// console.log(typeof result)                                                                   // tells you what type of data you are printing
+
+// Create a funtion that takes an array and returns the data types of the array values in a new array
+// arrayValueTypes(["Emma", 13, "green", [], true]) -> [string, number, string, object, boolean]
+
+function arrayValueTypes(arr) {                                                                 // declared a funtion
+    var newArray = [];                                                                          // declared a variable
+    for(var i = 0; i < arr.length; i++) {                                                       // i=value in an array, arrays start at 0, go through every value until you reach the end of the array
+        newArray[i] = typeof arr [i]                                                            // every value in the array is converted to its type (string, number, etc)
+    }
+
+    return newArray                                                                             // return "newArray" aka the converted values
 }
-console.log(giveMeAString([1,2,3,4,5,"Ali"]))
+console.log(arrayValueTypes(["Emma", 13, "green", [], true]))
 
-const result = giveMeAString([1,2,3,4,5,"Ali"])
-console.log(typeof result)                                                                   // tells you what type of data you are printing
+// const arrayValueTypes = arr => arr.map(x => typeof x)                                        // one line code
