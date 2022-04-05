@@ -7,4 +7,4 @@ return arr[0]
 
 console.log(getArrElement([1,2,3,4]))
 
-const getArrElement = arr => arr [0]
+const getOneLineArrElement = arr => arr [0]
