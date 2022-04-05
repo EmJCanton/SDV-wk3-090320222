@@ -9,11 +9,20 @@
 
 // const getOneLineArrElement = arr => arr [0]
 
-// Give two arguments, return an array which contains the sum of these two arguments
+// // Give two arguments, return an array which contains the sum of these two arguments
 
-function createArray(a, b) {
-    var arr = [a, b]
-    return arr
+// function createArray(a, b) {
+//     var arr = [a, b]
+//     return arr
+// }
+
+// console.log (createArray(1, 2))
+
+// write a function to reverse an array
+// Example: reverseArray ([1, 2, 3, 4]) -> [4, 3, 2, 1]
+
+function reverseArray(arr) {     // Putting arr into the funtion brackets tells JS you will input an array?
+    return arr.reverse()     // JS .reverse() is an inbuilt function
 }
 
-console.log (createArray(1, 2))
+console.log(reverseArray([1,2,3,4,5,6,7,8,9]))  // Put the array into square brackets to tell JS it is an array
