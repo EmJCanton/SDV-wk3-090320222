@@ -30,10 +30,21 @@
 // const oneReverseArray = arr => arr.reverse(); // same funtion in one line
 // console.log(oneReverseArray([2,4,6,8,0]))
 
-// Create a function that accepts an array and returns the last element
-// Example lastElement(["Ali", 12, "blue", "green"]) -> Green
+// // Create a function that accepts an array and returns the last element
+// // Example lastElement(["Ali", 12, "blue", "green"]) -> Green
 
-function lastElement(arr) {
-    return arr.length(-1)
+// function lastElement(arr) {
+//     return arr.length(-1)  // You can use .length(-1), .slice(-1), or pop()
+// }
+// console.log(lastElement(["ali", 12, "blue", "green"]))
+
+// Create a function that takes an array and returns it as a string
+// arrayToString(["Ali", 12, "blue"]) -> Ali12blue
+
+function giveMeAString(arr) {
+    return arr.toString();                                                                   // .toString() can also be changed to .join('')
 }
-console.log(lastElement(["ali", 12, "blue", "green"]))
+console.log(giveMeAString([1,2,3,4,5,"Ali"]))
+
+const result = giveMeAString([1,2,3,4,5,"Ali"])
+console.log(typeof result)                                                                   // tells you what type of data you are printing
