@@ -4,7 +4,7 @@
   "description": "A testing ground for newbies",
   "main": "week-4.js",
   "scripts": {
-    "dev": "nodemon ./home-page/home.js",
+    "dev": "nodemon ./wk7paircode/wk7app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
