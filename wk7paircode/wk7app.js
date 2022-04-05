@@ -34,6 +34,6 @@
 // Example lastElement(["Ali", 12, "blue", "green"]) -> Green
 
 function lastElement(arr) {
-    return arr.slice(-1)
+    return arr.length(-1)
 }
 console.log(lastElement(["ali", 12, "blue", "green"]))
