@@ -26,3 +26,6 @@ function reverseArray(arr) {     // Putting arr into the funtion brackets tells 
 }
 
 console.log(reverseArray([1,2,3,4,5,6,7,8,9]))  // Put the array into square brackets to tell JS it is an array
+
+const oneReverseArray = arr => arr.reverse(); // same funtion in one line
+console.log(oneReverseArray([2,4,6,8,0]))
