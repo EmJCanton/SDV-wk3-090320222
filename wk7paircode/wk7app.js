@@ -75,7 +75,16 @@
 
 //Write a function that takes an array of elements and returns only the numbers in the array and console log the result in an array
 
-function onlyNumbers(arr) {
- return arr.filter(Number.isInteger)
+// function onlyNumbers(arr) {
+//  return arr.filter(element => typeof element === 'number')
+// }
+// console.log(onlyNumbers(["Emma", 21, 4, 5, "Abby", 10]))
+
+/*
+Write a function that converts an object to an array.
+Example: objectToArray({a: "Ali", b:12}) -> [["a", "Ali"],["b",12]]
+*/
+
+function objectToArray(arr) {
+    return Object.entries(arr); 
 }
-console.log(onlyNumbers(["Emma", 21, 4, 5, "Abby", 10]))
