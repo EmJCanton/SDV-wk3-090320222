@@ -63,3 +63,4 @@ function arrayValueTypes(arr) {                                                 
 console.log(arrayValueTypes(["Emma", 13, "green", [], true]))
 
 // const arrayValueTypes = arr => arr.map(x => typeof x)                                        // one line code
+
