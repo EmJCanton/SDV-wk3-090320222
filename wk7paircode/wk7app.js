@@ -85,8 +85,19 @@ Write a function that converts an object to an array.
 Example: objectToArray({a: "Ali", b:12}) -> [["a", "Ali"],["b",12]]
 */
 
-function objectToArray(obj) {
-    return Object.entries(obj); 
-}
+// function objectToArray(obj) {
+//     return Object.entries(obj); 
+// }
 
-console.log(objectToArray({1: "banana", 2: 12}))
+// console.log(objectToArray({1: "banana", 2: 12}))
+
+// // JavaScript
+// function objectToArray(obj) {
+//     var arr = {}
+//     for (var i in obj) {
+//         arr.push([i,obj[i]])
+//     }
+//     return arr
+// }
+// // ES6
+// const objToArr = obj => Object.entries(obj)
