@@ -76,9 +76,7 @@
 //Write a function that takes an array of elements and returns only the numbers in the array and console log the result in an array
 
 function onlyNumbers(arr) {
-    return arr.every(element => {
-        return typeof element ==='number';
-    })
+    return (typeof arr === 'number' &&!isNaN(arr))
 }
 
 console.log(onlyNumbers["Emma", 21, 3, 6, "Abby", 10])
