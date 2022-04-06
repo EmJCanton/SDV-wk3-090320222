@@ -68,8 +68,17 @@
 
 //Example: compar("AB", "CD") -> true
 
-function compare(name1, name2) {
-    return name1.length === name2.length;
-}
-console.log(compare("AB", "CD"))
+// function compare(name1, name2) {
+//     return name1.length === name2.length;
+// }
+// console.log(compare("AB", "CD"))
 
+//Write a function that takes an array of elements and returns only the numbers in the array and console log the result in an array
+
+function onlyNumbers(arr) {
+    return arr.every(element => {
+        return typeof element ==='number';
+    })
+}
+
+console.log(onlyNumbers["Emma",21,3,6,"Abby",10])
