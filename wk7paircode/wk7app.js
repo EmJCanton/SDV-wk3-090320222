@@ -85,6 +85,8 @@ Write a function that converts an object to an array.
 Example: objectToArray({a: "Ali", b:12}) -> [["a", "Ali"],["b",12]]
 */
 
-function objectToArray(arr) {
-    return Object.entries(arr); 
+function objectToArray(obj) {
+    return Object.entries(obj); 
 }
+
+console.log(objectToArray({1: "banana", 2: 12}))
