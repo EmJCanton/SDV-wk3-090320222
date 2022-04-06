@@ -52,15 +52,24 @@
 // Create a funtion that takes an array and returns the data types of the array values in a new array
 // arrayValueTypes(["Emma", 13, "green", [], true]) -> [string, number, string, object, boolean]
 
-function arrayValueTypes(arr) {                                                                 // declared a funtion
-    var newArray = [];                                                                          // declared a variable
-    for(var i = 0; i < arr.length; i++) {                                                       // i=value in an array, arrays start at 0, go through every value until you reach the end of the array
-        newArray[i] = typeof arr [i]                                                            // every value in the array is converted to its type (string, number, etc)
-    }
+// function arrayValueTypes(arr) {                                                                 // declared a funtion
+//     var newArray = [];                                                                          // declared a variable
+//     for(var i = 0; i < arr.length; i++) {                                                       // i=value in an array, arrays start at 0, go through every value until you reach the end of the array
+//         newArray[i] = typeof arr [i]                                                            // every value in the array is converted to its type (string, number, etc)
+//     }
 
-    return newArray                                                                             // return "newArray" aka the converted values
+//     return newArray                                                                             // return "newArray" aka the converted values
+// }
+// console.log(arrayValueTypes(["Emma", 13, "green", [], true]))
+
+// // const arrayValueTypes = arr => arr.map(x => typeof x)                                        // one line code
+//Create a function taht takes two strings and return either true or false depending on whether the total
+//number of the characters in the first string is equal to the total number of characters in the second string
+
+//Example: compar("AB", "CD") -> true
+
+function compare(name1, name2) {
+    return name1.length === name2.length;
 }
-console.log(arrayValueTypes(["Emma", 13, "green", [], true]))
-
-// const arrayValueTypes = arr => arr.map(x => typeof x)                                        // one line code
+console.log(compare("AB", "CD"))
 
