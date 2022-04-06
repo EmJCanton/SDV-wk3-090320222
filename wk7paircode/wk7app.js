@@ -79,4 +79,4 @@ function onlyNumbers(arr) {
     return (typeof arr === 'number' &&!isNaN(arr))
 }
 
-console.log(onlyNumbers["Emma", 21, 3, 6, "Abby", 10])
+console.log(onlyNumbers(["Emma", 21, 3, 6, "Abby", 10]))
