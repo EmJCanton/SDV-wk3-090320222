@@ -81,4 +81,4 @@ function onlyNumbers(arr) {
     })
 }
 
-console.log(onlyNumbers["Emma",21,3,6,"Abby",10])
+console.log(onlyNumbers["Emma", 21, 3, 6, "Abby", 10])
