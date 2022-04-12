@@ -117,7 +117,7 @@ const isEven = (string) => string.length % 2 == 0
 // console.log(currentDate)
 
 // Create a function that takes two arguments, first is an array and second is a string. The string finds the index number of the corresponding item in the array.
-// indexArray(["Ali", "Kahwaji", "NMIT", "Nelson"], "NMIT") -> 2
+// Example: indexArray(["Ali", "Kahwaji", "NMIT", "Nelson"], "NMIT") -> 2
 
 function indexArray(array, string) {
     return array.indexOf(string)
@@ -127,3 +127,22 @@ console.log(indexArray(["Emma", "Canton", "Student", "Nelson"], "Nelson")) // ->
 // ES6
 const getIndex = (array, string) => array.findIndex(val => val === string)
 
+// Create a function which returns the total of all odd numbers up to and including the number pass in as param.
+// Example: oddNumbersSum(5) -> 9 
+// Example: oddNumbersSum(13) -> 49 
+
+function oddNumbersSum(num) {
+    let total = 0
+    for (let i = 1; i <= num; i+=2) {
+        total += i
+    }
+    return total
+}
+console.log(oddNumbersSum(15))
+ 
+// Create a function that takes an array of strings and numbers and filter out the array so it returns only an array of numbers
+// Example: onlyNumbers(["Ali", 7010, "Kahwaji", 2022]) -> [7010,2022]
+function numbersOnly(arr) {
+    return arr.filter(val => Number.isInteger(val))
+}
+console.log(numbersOnly(["Emma", 13, "February", 1990]))
