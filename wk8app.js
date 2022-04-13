@@ -217,13 +217,13 @@ function greaterAndLess(num1, num2, arr) {
 
 // Create a function that calculates the area of a rectangle, if the arguments are invalid, return an error message
 
-function areaOfARectangle(num1, num2) {
-    if (num1 > 0 && num2 > 0) {
-        return "The area of your square is " + num1 * num2 + " units."
-    } else
+function areaOfARectangle(h, w) {
+    if (h > 0 && w > 0) {
+        return "The area of your square is " + h * w + " units."
+    } 
     return "error"
 }
-console.log(areaOfARectangle(5,7))
+console.log(areaOfARectangle(3,10))
 
 // Ali example
 function rectArea(h, w) {
@@ -233,3 +233,26 @@ function rectArea(h, w) {
     return h * w
 }
 console.log(rectArea(5,6))
+
+// Classes - Example
+/*
+class ClassName{
+    constructor(param1, param2, ....){
+        this.prop1 = param1
+        this.prop2 = param2
+    }
+}
+*/
+
+class Person{
+    constructor(name, age){
+        this.name = name
+        this.age = age
+    }
+}
+let personOne = new Person("Emma", "13")
+let personTwo = new Person("Ali", "120")
+let personThree = new Person("Abigail", "24")
+let personFOur = new Person("Rhylei", "22")
+
+console.log(personOne)
