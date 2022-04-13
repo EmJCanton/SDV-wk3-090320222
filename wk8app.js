@@ -153,3 +153,83 @@ function addOne(num) {
     return ++num // you can use num +1 or ++num for the same effect
 }
 console.log(addOne(-2))
+
+// Create a function that takes a boolean variable and returns it as a string
+// Example bolToString(true) -> "True"
+
+function boolToString (bool) {
+    return bool.toString()
+}
+console.log(boolToString(true)) // true
+
+// Create a function that takes two numbers (num1 and num2) and an array, and returns an array containing all numbers greater than num1 and less than num2
+// Example: greaterAndLesser(2, 7, [1,2,3,4,5,6,7,8,9,10]) -> [3,4,5,6
+
+// function greaterAndLesser(num1, num2, arr) {
+//     if (i = num1, i <= num2, i++) {
+//         return answer
+//     }
+// }
+// console.log(greaterAndLesser(2, 13, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]))
+
+// Tristan example - push the filtered results into a new array
+function allInRange (array, min, max) {
+    var newarray = []
+    for (let index = 0; index < array.length; index++) {
+        if (min < array[index] && array[index] < max){
+            newarray.push(array[index])
+        }
+    }
+    return newarray
+}
+console.log(allInRange([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 7)) // [3, 4, 5, 6]
+
+// Rhylei example - push the filtered results into a new array
+function greaterAndLess(num1, num2, arr) {
+    newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] < num2 && arr[i] > num1) {
+        newArr.push(arr[i]);
+      }
+    }
+    return newArr;
+  }
+  console.log(greaterAndLess(2, 7, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); 
+
+  // Ali/Tobias - push the filtered results into a new array
+  function greaterThan(num1, num2, arr) {
+      let filtered = []
+      let n = arr.length
+      for (var i = 0; i < n; i++) {
+          if ((arr[i] > num1) && (arr[i] < num2)) {
+              filtered.push(arr[i])
+          }
+      }
+      return filtered
+  }
+  console.log(greaterThan(2,7,[1,2,3,4,5,6,7,8,9,10]))
+
+  // Ali - return the array by using the filter
+  function giveMe(num1, num2, arr) {
+      return arr.filter(val => val > num1 && val < num2)
+  }
+  console.log(giveMe(1,6,[1,2,3,4,5,6,7,8,9,10]))
+
+// Create a function that calculates the area of a rectangle, if the arguments are invalid, return an error message
+
+function areaOfARectangle(num1, num2) {
+    if (num1 > 0 && num2 > 0) {
+        return "The area of your square is " + num1 * num2 + " units."
+    } else
+    return "error"
+}
+console.log(areaOfARectangle(5,7))
+
+// Ali example
+function rectArea(h, w) {
+    if (h < 0 || w < 0) {
+        return "error"
+    }
+    return h * w
+}
+console.log(rectArea(5,6))
