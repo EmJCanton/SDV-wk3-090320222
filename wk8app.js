@@ -303,8 +303,8 @@ class Greeting{
         this.lastName = lastName
     }
     greet() {
-        return `Hello ${this.firstName} ${this.lastName}.`
+        return `Hello ${this.firstName} ${this.lastName}, welcome to NMIT`
     }
 }
 const new_person = new Greeting("Emma","Canton")
-console.log(new_person)
+console.log(new_person.greet("Emma","Canton"))
