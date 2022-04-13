@@ -142,7 +142,14 @@ console.log(oddNumbersSum(15))
  
 // Create a function that takes an array of strings and numbers and filter out the array so it returns only an array of numbers
 // Example: onlyNumbers(["Ali", 7010, "Kahwaji", 2022]) -> [7010,2022]
+
 function numbersOnly(arr) {
     return arr.filter(val => Number.isInteger(val))
 }
 console.log(numbersOnly(["Emma", 13, "February", 1990]))
+
+// Create a function that has a number as an argument, increment the number by 1 and return the result
+function addOne(num) {
+    return ++num // you can use num +1 or ++num for the same effect
+}
+console.log(addOne(-2))
