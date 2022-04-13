@@ -163,7 +163,7 @@ function boolToString (bool) {
 console.log(boolToString(true)) // true
 
 // Create a function that takes two numbers (num1 and num2) and an array, and returns an array containing all numbers greater than num1 and less than num2
-// Example: greaterAndLesser(2, 7, [1,2,3,4,5,6,7,8,9,10]) -> [3,4,5,6
+// Example: greaterAndLesser(2, 7, [1,2,3,4,5,6,7,8,9,10]) -> [3,4,5,6]
 
 // function greaterAndLesser(num1, num2, arr) {
 //     if (i = num1, i <= num2, i++) {
