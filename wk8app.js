@@ -223,7 +223,7 @@ function areaOfARectangle(h, w) {
     } 
     return "error"
 }
-console.log(areaOfARectangle(3,10))
+console.log(areaOfARectangle(0, 10))
 
 // Ali example
 function rectArea(h, w) {
@@ -232,7 +232,7 @@ function rectArea(h, w) {
     }
     return h * w
 }
-console.log(rectArea(5,6))
+console.log(rectArea(3,6))
 
 // Classes - Example
 /*
@@ -256,3 +256,55 @@ let personThree = new Person("Abigail", "24")
 let personFOur = new Person("Rhylei", "22")
 
 console.log(personOne)
+
+// Pre-ES6 example (OUTDATED MODEL)
+/*
+class Person = function(name, age) {
+    this.name = name
+    this.age = age
+}
+Person.prototype.fullInfo = function(){
+    return this.name+ " " + this.age
+}
+*/
+
+class Student {
+    constructor(name, id, age) {
+        this.name = name
+        this.id = id
+        this.age = age
+    }
+}
+const first_year = new Student("Ali","00000","44")
+const second_year = new Student("Emma","12345","32")
+const third_year = new Student("Abigail","24680","24")
+const fourth_year = new Student("Emory","13579","23")
+const fifth_year = new Student("Thomas","111333","19")
+const sixth_year = new Student("Katie","222444","27")
+
+console.log(fourth_year)
+
+// const x = function () {} // function
+// const y = class {} // class
+
+// Object.getPropertyOf(x) //f()
+// Object.getPropertyOf(y) //f()
+
+// function Child(name, age) {                     class Child{
+//     this.name = name                                 constructor(name, age) {
+//     this.age = age                                       this.name = name
+// }                                                        this.age = age
+//                                                           } 
+//                                                }
+
+class Greeting{
+    constructor(firstName, lastName) {
+        this.firstName = firstName
+        this.lastName = lastName
+    }
+    greet() {
+        return `Hello ${this.firstName} ${this.lastName}.`
+    }
+}
+const new_person = new Greeting("Emma","Canton")
+console.log(new_person)
